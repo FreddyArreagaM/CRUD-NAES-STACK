@@ -1,0 +1,101 @@
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-lg-8 offset-lg-2">
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="titulo">TARJETA CREDITO </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-lg-6">
+            <div class="card">
+                <div class="card-body">
+                    <div class="text-center">
+                        <h5> {{titulo | uppercase}} TARJETA </h5>
+                    </div>
+                    <form [formGroup]="form" (ngSubmit)="guardarTarjeta()">
+
+                        <!-- Nombre del Titular -->                        
+                        <div class="input-group-lg input-group mb-3">
+                            <span class="input-group-text">
+                                <i class="fa-solid fa-user" 
+                                [class.green-icon]="this.form.get('titular')?.valid" 
+                                [class.red-icon]="this.form.get('titular')?.invalid && this.form.get('titular')?.touched">
+                                </i>
+                            </span>
+                            <input oninput="this.value = this.value.replace(/[^A-Za-zñÑáéíóúÁÉÍÓÚ\s ]/g, '').replace(/(\..*)\./g, '$1');" formControlName="titular" type="text" class="form-control" placeholder="Titular Tarjeta">
+                        </div>
+
+                        <!-- Numero de Tarjeta -->
+                        <div class="input-group-lg input-group mb-3">
+                            <span class="input-group-text">
+                                <i class="fa-solid fa-credit-card"
+                                [class.green-icon]="this.form.get('numeroTarjeta')?.valid" 
+                                [class.red-icon]="this.form.get('numeroTarjeta')?.invalid && this.form.get('numeroTarjeta')?.touched">
+                            </i>
+                            </span>
+                            <input oninput="this.value = this.value.replace(/[^0-9]/g, '').replace(/(\..*)\./g, '$1');" formControlName="numeroTarjeta" maxlength="16" type="text" class="form-control" placeholder="Numero de Tarjeta">
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-7">
+                                <!-- Fecha de Expiración -->
+                                <div class="input-group-lg input-group mb-3">
+                                    <span class="input-group-text">
+                                        <i class="fa-solid fa-calendar-days"
+                                        [class.green-icon]="this.form.get('fechaExpiracion')?.valid" 
+                                        [class.red-icon]="this.form.get('fechaExpiracion')?.invalid && this.form.get('fechaExpiracion')?.touched">
+                                    </i>
+                                    </span>
+                                    <input oninput="this.value = this.value.replace(/[^0-9/]/g, '').replace(/(\..*)\./g, '$1');" (input)="validarFecha($event)" formControlName="fechaExpiracion" maxlength="5" type="text" class="form-control" placeholder="MM/YY">
+                                </div>
+                            </div>
+                            <div class="col-lg-5">
+                                <!-- Código CVV -->
+                                <div class="input-group-lg input-group mb-3">
+                                    <span class="input-group-text">
+                                        <i class="fa-solid fa-key"[class.green-icon]="this.form.get('cvv')?.valid" 
+                                        [class.red-icon]="this.form.get('cvv')?.invalid && this.form.get('cvv')?.touched">
+                                    </i>
+                                    </span>
+                                    <input oninput="this.value = this.value.replace(/[^0-9]/g, '').replace(/(\..*)\./g, '$1');" formControlName="cvv" maxlength="3" type="password" class="form-control" placeholder="CVV">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Botón para enviar los datos -->
+                        <div class="d-grid gap-2">
+                            <button type="submit" [disabled]="this.form.invalid" class="btn btn-success btn-lg"> <i class="fa-solid fa-database"></i> &nbsp; Aceptar </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="card">
+                <div class="card-body">
+                    <div class="text-center">
+                        <h5> LISTADO DE TARJETAS </h5>
+                    </div>
+                    <table class="table">
+                        <tbody>
+                            <tr *ngFor="let tarjeta of listaTarjetas">
+                                <td>{{tarjeta.titular}}</td>
+                                <td>{{tarjeta.numeroTarjeta}} </td>
+                                <td>{{tarjeta.fechaExpiracion}}</td>
+                                <td> 
+                                    <i (click)="editarTarjeta(tarjeta)" class="fa-solid fa-pen-to-square text-info"></i> 
+                                </td>
+                                <td>
+                                    <i (click)="eliminarTarjeta(tarjeta.id)" class="fa-solid fa-trash text-danger"></i>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

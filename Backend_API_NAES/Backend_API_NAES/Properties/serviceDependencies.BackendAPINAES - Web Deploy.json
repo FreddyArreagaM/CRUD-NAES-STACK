@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "apis1": {
+      "apiEndpoint": "https://backendapinaesapi.azure-api.net/crud",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.ApiManagement/service/BackendAPINAESapi/apis/apitarjeta",
+      "type": "apis.azure"
+    },
+    "mssql1": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Web/sites/BackendAPINAES/providers/Microsoft.ServiceLinker/linkers/ConnectionStringsDevConnection_E466512597",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/backend-api-naesdbserver/databases/Backend_API_NAES_db",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:DevConnection"
+    }
+  }
+}

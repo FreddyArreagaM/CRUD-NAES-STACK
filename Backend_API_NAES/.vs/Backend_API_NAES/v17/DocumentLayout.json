@@ -1,0 +1,119 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\JR\\Desktop\\APP\\CRUD_NAES\\Backend_API_NAES\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1E8CDA48-984A-4B6D-8CCA-F8FE2EA63BEB}|Backend_API_NAES\\Backend_API_NAES.csproj|c:\\users\\jr\\desktop\\app\\crud_naes\\backend_api_naes\\backend_api_naes\\backend_api_naes.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{1E8CDA48-984A-4B6D-8CCA-F8FE2EA63BEB}|Backend_API_NAES\\Backend_API_NAES.csproj|solutionrelative:backend_api_naes\\backend_api_naes.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E8CDA48-984A-4B6D-8CCA-F8FE2EA63BEB}|Backend_API_NAES\\Backend_API_NAES.csproj|c:\\users\\jr\\desktop\\app\\crud_naes\\backend_api_naes\\backend_api_naes\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1E8CDA48-984A-4B6D-8CCA-F8FE2EA63BEB}|Backend_API_NAES\\Backend_API_NAES.csproj|solutionrelative:backend_api_naes\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E8CDA48-984A-4B6D-8CCA-F8FE2EA63BEB}|Backend_API_NAES\\Backend_API_NAES.csproj|c:\\users\\jr\\desktop\\app\\crud_naes\\backend_api_naes\\backend_api_naes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E8CDA48-984A-4B6D-8CCA-F8FE2EA63BEB}|Backend_API_NAES\\Backend_API_NAES.csproj|solutionrelative:backend_api_naes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E8CDA48-984A-4B6D-8CCA-F8FE2EA63BEB}|Backend_API_NAES\\Backend_API_NAES.csproj|c:\\users\\jr\\desktop\\app\\crud_naes\\backend_api_naes\\backend_api_naes\\controllers\\tarjetacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E8CDA48-984A-4B6D-8CCA-F8FE2EA63BEB}|Backend_API_NAES\\Backend_API_NAES.csproj|solutionrelative:backend_api_naes\\controllers\\tarjetacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E8CDA48-984A-4B6D-8CCA-F8FE2EA63BEB}|Backend_API_NAES\\Backend_API_NAES.csproj|c:\\users\\jr\\desktop\\app\\crud_naes\\backend_api_naes\\backend_api_naes\\aplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E8CDA48-984A-4B6D-8CCA-F8FE2EA63BEB}|Backend_API_NAES\\Backend_API_NAES.csproj|solutionrelative:backend_api_naes\\aplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E8CDA48-984A-4B6D-8CCA-F8FE2EA63BEB}|Backend_API_NAES\\Backend_API_NAES.csproj|c:\\users\\jr\\desktop\\app\\crud_naes\\backend_api_naes\\backend_api_naes\\models\\tarjetacredito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E8CDA48-984A-4B6D-8CCA-F8FE2EA63BEB}|Backend_API_NAES\\Backend_API_NAES.csproj|solutionrelative:backend_api_naes\\models\\tarjetacredito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\JR\\Desktop\\APP\\CRUD_NAES\\Backend_API_NAES\\Backend_API_NAES\\appsettings.json",
+              "RelativeDocumentMoniker": "Backend_API_NAES\\appsettings.json",
+              "ToolTip": "C:\\Users\\JR\\Desktop\\APP\\CRUD_NAES\\Backend_API_NAES\\Backend_API_NAES\\appsettings.json",
+              "RelativeToolTip": "Backend_API_NAES\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAACeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-02-19T02:55:57.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Backend_API_NAES.http",
+              "DocumentMoniker": "C:\\Users\\JR\\Desktop\\APP\\CRUD_NAES\\Backend_API_NAES\\Backend_API_NAES\\Backend_API_NAES.http",
+              "RelativeDocumentMoniker": "Backend_API_NAES\\Backend_API_NAES.http",
+              "ToolTip": "C:\\Users\\JR\\Desktop\\APP\\CRUD_NAES\\Backend_API_NAES\\Backend_API_NAES\\Backend_API_NAES.http",
+              "RelativeToolTip": "Backend_API_NAES\\Backend_API_NAES.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-02-19T02:37:37.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TarjetaCredito.cs",
+              "DocumentMoniker": "C:\\Users\\JR\\Desktop\\APP\\CRUD_NAES\\Backend_API_NAES\\Backend_API_NAES\\Models\\TarjetaCredito.cs",
+              "RelativeDocumentMoniker": "Backend_API_NAES\\Models\\TarjetaCredito.cs",
+              "ToolTip": "C:\\Users\\JR\\Desktop\\APP\\CRUD_NAES\\Backend_API_NAES\\Backend_API_NAES\\Models\\TarjetaCredito.cs",
+              "RelativeToolTip": "Backend_API_NAES\\Models\\TarjetaCredito.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-18T19:08:05.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\JR\\Desktop\\APP\\CRUD_NAES\\Backend_API_NAES\\Backend_API_NAES\\AplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Backend_API_NAES\\AplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\JR\\Desktop\\APP\\CRUD_NAES\\Backend_API_NAES\\Backend_API_NAES\\AplicationDbContext.cs",
+              "RelativeToolTip": "Backend_API_NAES\\AplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-18T14:43:06.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TarjetaController.cs",
+              "DocumentMoniker": "C:\\Users\\JR\\Desktop\\APP\\CRUD_NAES\\Backend_API_NAES\\Backend_API_NAES\\Controllers\\TarjetaController.cs",
+              "RelativeDocumentMoniker": "Backend_API_NAES\\Controllers\\TarjetaController.cs",
+              "ToolTip": "C:\\Users\\JR\\Desktop\\APP\\CRUD_NAES\\Backend_API_NAES\\Backend_API_NAES\\Controllers\\TarjetaController.cs",
+              "RelativeToolTip": "Backend_API_NAES\\Controllers\\TarjetaController.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAowCgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-18T14:30:40.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\JR\\Desktop\\APP\\CRUD_NAES\\Backend_API_NAES\\Backend_API_NAES\\Program.cs",
+              "RelativeDocumentMoniker": "Backend_API_NAES\\Program.cs",
+              "ToolTip": "C:\\Users\\JR\\Desktop\\APP\\CRUD_NAES\\Backend_API_NAES\\Backend_API_NAES\\Program.cs",
+              "RelativeToolTip": "Backend_API_NAES\\Program.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-17T03:38:54.972Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
